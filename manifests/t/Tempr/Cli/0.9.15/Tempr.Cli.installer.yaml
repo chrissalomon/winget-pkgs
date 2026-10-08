@@ -1,21 +1,21 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Tempr.Cli
-PackageVersion: 0.9.14
+PackageVersion: 0.9.15
 InstallerType: zip
 NestedInstallerType: portable
 Commands:
   - tempr
 Installers:
   - Architecture: x64
-    InstallerUrl: https://temprhq.io/cli/v0.9.14/tempr-0.9.14-win-x64.zip
-    InstallerSha256: d74c881bd8805d7ae26bb45ba78fcfefb653551b7f1dd2534284badc8b22e485
+    InstallerUrl: https://temprhq.io/cli/v0.9.15/tempr-0.9.15-win-x64.zip
+    InstallerSha256: b9d089901a5256b524f3f67d2b4d173bbee8419f164274b8a2e27f0fb18acccf
     NestedInstallerFiles:
       - RelativeFilePath: tempr.exe
         PortableCommandAlias: tempr
   - Architecture: arm64
-    InstallerUrl: https://temprhq.io/cli/v0.9.14/tempr-0.9.14-win-arm64.zip
-    InstallerSha256: 8b718daaac1bfad1ebfd4e0e40d229448a7049dfe1be04d22ef5a9eca026ecff
+    InstallerUrl: https://temprhq.io/cli/v0.9.15/tempr-0.9.15-win-arm64.zip
+    InstallerSha256: 83ed35742bd2ec7e3030f1b3b8a4efd57bfdf4cf7517da88a21dce08faa1e13b
     NestedInstallerFiles:
       - RelativeFilePath: tempr.exe
         PortableCommandAlias: tempr
